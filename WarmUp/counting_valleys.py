@@ -22,7 +22,7 @@ def countingValleys(n, s):
 
 if __name__ == '__main__':
     n = int(input())
-    s = raw_input()
+    s = input()
     result = countingValleys(n, s)
-    print result
+    print(result)
 

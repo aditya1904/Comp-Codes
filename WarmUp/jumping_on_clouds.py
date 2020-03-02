@@ -23,6 +23,7 @@ if __name__ == '__main__':
 
     n = int(input())
 
-    c = list(map(int, raw_input().rstrip().split()))
+    c = list(map(int, input().rstrip().split()))
 
     result = jumpingOnClouds(c)
+    print(result)

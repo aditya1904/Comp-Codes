@@ -19,7 +19,7 @@ def sockMerchant(n, ar):
 if __name__ == '__main__':
     n = int(input())
 
-    ar = list(map(int, raw_input().rstrip().split()))
+    ar = list(map(int, input().rstrip().split()))
 
     result = sockMerchant(n, ar)
-    print result
+    print(result)
